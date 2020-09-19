@@ -1,0 +1,56 @@
+--for technology
+[
+    {
+        "techId": 101,
+        "techName": "Java",
+        "techType": "Language",
+        "employee": [],
+        "project": []
+    },
+    {
+        "techId": 102,
+        "techName": "Python",
+        "techType": "Language",
+        "employee": [],
+        "project": []
+    },
+    {
+        "techId": 103,
+        "techName": "AWS",
+        "techType": "Cloud",
+        "employee": [],
+        "project": []
+    }
+]
+
+--for empinfo
+{
+"empId":20190001,
+"empName":"Sushil",
+"joiningDate":"2019-01-01",
+"technology":[{"techId":101}],
+"project":{"projectId":1001}
+}
+
+--for projinfo
+{
+"projectId":1001,
+"projectName":"Spring Application",
+"startDate":"2019-01-01",
+"technology":[{"techId":101}],
+"employee":[{"empId":20190001}]
+}
+
+--for defect
+	    {
+        "defectId": 2,
+        "defectDesc": "Database update failed",
+        "defectMenu": "System Parameter",
+        "defectDate": "2019-09-20",
+        "solutionDate": "2019-09-20",
+        "testerName": "SushilTest",
+        "developerName": "SushilDev",
+        "defectStatus": "Fixed",
+        "devRemark": "Validation was failing during save",
+        "testRemark": "Verified"
+    }

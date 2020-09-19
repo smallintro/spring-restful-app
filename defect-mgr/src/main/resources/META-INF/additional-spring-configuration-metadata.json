@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "sprintboot.fileExportPath",
+    "type": "java.lang.String",
+    "description": "A description for 'sprintboot.fileExportPath'"
+  },
+  {
+    "name": "sprintboot.fileDateFormat",
+    "type": "java.lang.String",
+    "description": "A description for 'sprintboot.fileDateFormat'"
+  }
+]}
