@@ -4,12 +4,12 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ConfigurationProperties(prefix="springboot")
+@ConfigurationProperties(prefix = "fileinfo")
 //@PropertySource("classpath:application.properties")
 public class ApplicationProperties {
 
 	private String fileExportPath;
-	
+
 	private String fileExportName;
 
 	private String fileDateFormat;
@@ -40,9 +40,8 @@ public class ApplicationProperties {
 
 	@Override
 	public String toString() {
-		return "ProjectProperties [fileExportPath=" + fileExportPath + ", fileExportName=" + fileExportName
+		return "ApplicationProperties [fileExportPath=" + fileExportPath + ", fileExportName=" + fileExportName
 				+ ", fileDateFormat=" + fileDateFormat + "]";
 	}
-	
 
 }
