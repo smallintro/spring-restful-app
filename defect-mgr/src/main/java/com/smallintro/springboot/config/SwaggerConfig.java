@@ -27,9 +27,9 @@ public class SwaggerConfig {
 	private  ApiInfo getApiInfo() {
 		return new ApiInfoBuilder()
 				.title("Small Into to Spring Boot")
-				.description("Defect Manager's API")
+				.description("Demo Spring Boot Application's API")
 				.version("v2.0")
-				.contact(new Contact("Sushil Prasad","https://smallintro.com",""))
+				.contact(new Contact("Sushil Prasad","https://smallintro.github.io",""))
 				.license("License 2.0")
 				.licenseUrl("https://github.com/smallintro/spring-boot/LICENSE")
 				.build();

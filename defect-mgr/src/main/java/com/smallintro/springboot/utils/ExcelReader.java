@@ -16,7 +16,7 @@ import org.springframework.stereotype.Service;
 public class ExcelReader {
 
 	@Autowired
-	ApplicationProperties appProperties;
+	private ApplicationProperties appProperties;
 	
 	public void readExcelFile(String contentType) throws IOException, InvalidFormatException {
 

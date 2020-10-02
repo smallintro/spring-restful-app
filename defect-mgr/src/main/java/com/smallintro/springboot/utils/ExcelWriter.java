@@ -26,7 +26,7 @@ public class ExcelWriter {
 			"Tester", "Developer", "Status", "Dev Remark", "Test Remark", "Phase" };
 
 	@Autowired
-	ApplicationProperties appProperties;
+	private ApplicationProperties appProperties;
 
 	@SuppressWarnings({ "unchecked", "rawtypes" })
 	public void writeDataToFile(List contentForFile, String contentType) {
